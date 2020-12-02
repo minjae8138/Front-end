@@ -1,0 +1,18 @@
+body {
+    background-color: #ecf0f1;
+  }
+  h1{
+      color : rgb(26, 65, 138) ;
+  }
+  h4{
+      color : rgb(140, 140, 231) ;
+  }
+  
+  .form,
+  .greetings {
+    display: none;
+  }
+  
+  .showing {
+    display: block;
+  }
