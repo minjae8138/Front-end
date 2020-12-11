@@ -27,8 +27,6 @@ function paintToDo(text){
     };
     saveToDos();
     toDos.push(toDoObj) ;
-
-
 }
 
 function handlesubmit(event){
