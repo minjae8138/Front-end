@@ -54,6 +54,9 @@ function paintDeleteAll() {
 function paintDeleteSel(event) {
     var body = document.getElementById('list-body');
     var chkbox = document.querySelectorAll('#list-body .btn-chk');
+    console.log(chkbox)
+    console.log(chkbox[1].checked)
+
     for (var i in chkbox) {
         if (chkbox[i].checked == true) {
             body.removeChild(chkbox[i].parentNode.parentNode);
