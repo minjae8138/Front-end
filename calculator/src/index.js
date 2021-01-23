@@ -1,7 +1,6 @@
 const main = document.querySelector("main")
 const operators = main.querySelectorAll(".operator")
 const numbers = Array.from(main.querySelectorAll(".numbers"))
-const b = main.querySelectorAll(".numbers")
 
 const equal = main.querySelector(".equal")
 const zero = main.querySelector(".zero")
