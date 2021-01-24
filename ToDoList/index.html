@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <!-- <link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet"> -->
-
-
-
     <title>toDoList</title>
 </head>
 <body>
     <div>
         <h1 class="clock"></h1>
         <span class = "js-weather"></span>
+        <form class="js-form form">
+            <input type="text" placeholder="What is your name?" />
+        </form>
+        <h4 class="js-greetings greetings"></h4>
+        
     </div>
     <div class="list-box">
         <h1>ToDoList</h1>
@@ -34,10 +34,8 @@
                     <th>To do List</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody id="list-body">
                 <tr>
-                    <td id="table-checkbox"></td>
-                    <td id="table-toDoList"></td>
                 </tr>
             </tbody>
         </table>
@@ -46,7 +44,8 @@
             <button type="button" id="deleteAll">전체 삭제</button>
         </div>
     </div>
-    
+
+    <script src="greeting.js"></script>
     <script src="todo.js"></script>
     <script src="bg.js"></script>
     <script src="clock.js"></script>
