@@ -85,8 +85,16 @@ td{
     display: block;
 }
 
-.js-form {
+#name {
     text-align: center;
+    width: 400px;
+    font-size: 30px;
+    border: none; 
+    margin-left: 500px;
+    background: rgba(255, 255, 255, 0.5);
+    border-bottom: 2px solid #16a085;
+
+
 }
 
 .js-greetings {
